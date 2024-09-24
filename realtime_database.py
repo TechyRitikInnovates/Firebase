@@ -4,7 +4,7 @@ from firebase_admin import credentials, db
 # Initialize the Firebase app with the credentials file
 cred = credentials.Certificate("credentials.json")  # Replace with your JSON key file path
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://krishi-vikas-8vygft-default-rtdb.firebaseio.com/'  # Replace with your database URL
+    'databaseURL': 'https://firebaseio.com/'  # Replace with your database URL
 })
 
 # Initialize Realtime Database client
